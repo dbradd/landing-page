@@ -44,6 +44,11 @@ h4 {
     font-weight: bolder;
 }
 
+h5 {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
 a {
     font-size: 18px;
     color: #e5e7eb;
@@ -92,7 +97,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 30px 160px;
+    padding: 30px 160px 60px 160px;
     gap: 30px;
 }
 
@@ -113,7 +118,7 @@ a {
 .snowboard, .ski, .terrain, .lodge {
     width: 250px;
     height: 250px;
-    border: 8px solid rgba(67, 127, 255, 0.5);
+    border: 8px solid rgb(58, 137, 255, 0.5);
     border-radius: 15px;
     background-size: cover;
 }
@@ -136,4 +141,67 @@ a {
 .lodge {
     background-image: url(./media/lodge.jpeg);
     background-position: 50% 100%;
+}
+
+.quote {
+    height: 400px;
+    width: auto;
+    text-align: center;
+    padding: 30px;
+    background-image: url(./media/mountain.jpeg);
+    background-size: cover;
+    background-position: 50% 80%;
+}
+
+.quote p {
+    font-size: 36px;
+    font-style: italic;
+    background-color: rgb(0, 0, 0, 0.5);
+    color: #f9faf8;
+}
+
+.cta {
+    padding: 60px 160px;
+}
+
+.cta, .ctabox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ctabox {
+    background-color: #3882f6;
+    padding: 30px 60px;
+    border-radius: 10px;
+    gap: 60px;
+}
+
+.ctatext {
+    display: flex;
+    flex-direction: column;
+}
+
+.ctatext p {
+    color: #f9faf8;
+}
+
+.ctabutton button {
+    background-color: #3882f6;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 3px solid #f9faf8;
+    color: #f9faf8;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 30px;
+    background-color: rgb(40, 40, 40);
+}
+
+.footer p {
+    color: #f9faf8;
 }
