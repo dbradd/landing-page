@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+#logo {
+    background-color: white;
+    width: 100px;
+    height: auto;
+}
+
+header, .logo, .header-links {
+    display: flex;
+    align-items: center;
+}
+
+.logo, .header-links {
+    gap: 20px;
+}
+
+header {
+    background-color: rgb(46, 46, 46);
+    padding: 20px 160px;
+    justify-content: space-between;
+}
+
+h1 {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+a {
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
+}
