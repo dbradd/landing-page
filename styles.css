@@ -39,6 +39,11 @@ h3 {
     color: #f9faf8;
 }
 
+h4 {
+    font-size: 36px;
+    font-weight: bolder;
+}
+
 a {
     font-size: 18px;
     color: #e5e7eb;
@@ -65,11 +70,12 @@ a {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    flex: 1;
+    flex: 1.4;
 }
 
 .info p {
     font-size: 18px;
+    line-height: 30px;
     color: #e5e7eb;
 }
 
@@ -80,4 +86,54 @@ a {
     padding: 5px 10px;
     background-color: #3882f6;
     color: white;
+}
+
+.activity {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 160px;
+    gap: 30px;
+}
+
+.bar {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 40px;
+}
+
+.barimg {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+}
+
+.snowboard, .ski, .terrain, .lodge {
+    width: 250px;
+    height: 250px;
+    border: 8px solid rgba(67, 127, 255, 0.5);
+    border-radius: 15px;
+    background-size: cover;
+}
+
+.snowboard {
+    background-image: url(./media/snowboard.jpeg);
+    background-position: 50% 100%;
+}
+
+.ski {
+    background-image: url(./media/ski.jpeg);
+    background-position: 50% 100%;
+}
+
+.terrain {
+    background-image: url(./media/terrain.jpeg);
+    background-position: 100% 100%;
+}
+
+.lodge {
+    background-image: url(./media/lodge.jpeg);
+    background-position: 50% 100%;
 }
